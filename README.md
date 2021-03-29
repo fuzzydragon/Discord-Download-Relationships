@@ -2,7 +2,7 @@
 A quick script for piping your discord relationships to a json file. 
 
 
-### Usage
+## Usage
 
 `node Index.js TOKEN`
 
@@ -44,6 +44,6 @@ _(More information can be found here: https://discord.com/developers/docs/resour
 * `65536` indicates	`Verified Bot`
 * `131072` indicates `Early Verified Bot Developer`
 
-### Dependancies
+## Dependancies
 
 * [axios](https://www.npmjs.com/package/axios)
