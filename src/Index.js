@@ -12,6 +12,6 @@ Axios.get(`https://discord.com/api/v8/users/@me/relationships`, {
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Dest": "empty",
         "Referer": "https://discord.com/channels/@me",
-        "Accept-Encoding": "identity"
+        "X-Super-Properties": Buffer.from(JSON.stringify({"os":"Windows","browser":"Discord Client","release_channel":"stable","client_version":"0.0.309","os_version":"10.0.19041","os_arch":"x64","system_locale":"en-US","client_build_number":80756,"client_event_source":null})).toString("base64")
     }
 }).then((response) => response.data.pipe(FileSystem.createWriteStream(`friends.json`)))
