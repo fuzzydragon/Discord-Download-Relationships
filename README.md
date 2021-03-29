@@ -28,7 +28,7 @@ _(More information can be found here: https://discord.com/developers/docs/resour
 * `1` indicates this person is your `friend`.
 * `2` indicates this person is `blocked`
 
-#### `user.public_flags` 
+#### `user.public_flags` determines a user's "permission" level: 
 * `0`	indicates `None`
 * `1` indicates	`Discord Employee`
 * `2` indicates	`Partnered Server Owner`
